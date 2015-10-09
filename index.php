@@ -50,9 +50,9 @@ function assign($to,$val)
 switch ($to)
 {
 case 1:
-$tounit="babies";$output=(double)($val / 0.75);break;
+$tounit="babies";$output=(double)($val / 7.5);break;
 case 2:
-$tounit="Watermelons";$output=(double)($val / 20);break;
+$tounit="Watermelons";$output=(double)($val / 20.0);break;
 case 3:
 $fromu="GBP";$output=(double)($val / 0.75);break;
 case 4:
