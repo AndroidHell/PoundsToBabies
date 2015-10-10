@@ -24,7 +24,11 @@
     			<td>
     				<select name="to">
     					<option value=1>Babies</option>
-    					<option value=2>Watermelon</option>
+    					<option value=2>Watermelons</option>
+    					<option value=3>Adult Male Honey Badgers</option>
+    					<option value=4>Macbook Pros</option>
+    					<option value=5>Human Brains</option>
+    					<option value=6>Volvo 960 Sedans</option>
     				</select>
     			</td>
     		</tr>
@@ -57,41 +61,43 @@
             	function assign($to,$val) {
             	    
                 	switch ($to) {
+                	    
                     	case 1:
-                        	$tounit="babies";
+                        	$tounit="Babies";
                         	$output=(double)($val / 7.5);
                         	$result = number_format($output, 4);
                     	break;
                     	
                     	case 2:
                         	$tounit="Watermelons";
-                        	$output=(double)($val / 20.0);
+                        	$output=(double)($val / 20.00);
                         	$result = number_format($output, 4);
                     	break;
+                    	
                     	case 3:
-                    	    $tounit="babies";
-                        	$output=(double)($val / 7.5);
+                    	    $tounit="Adult Male Honey Badgers";
+                        	$output=(double)($val / 27.50);
                         	$result = number_format($output, 4);
+                    	break;
+                    	
                     	case 4:
-                    	    $tounit="babies";
-                        	$output=(double)($val / 7.5);
+                    	    $tounit="MackBook Pros";
+                        	$output=(double)($val / 4.49);
                         	$result = number_format($output, 4);
+                    	break;
+                    	
                     	case 5:
-                    	    $tounit="babies";
-                        	$output=(double)($val / 7.5);
+                    	    $tounit="Human Brains";
+                        	$output=(double)($val / 3.00);
                         	$result = number_format($output, 4);
+                    	break;
+                    	
                     	case 6:
-                            $tounit="babies";
-                        	$output=(double)($val / 7.5);
+                            $tounit="Volvo 960 Sedans";
+                        	$output=(double)($val / 3460.00);
                         	$result = number_format($output, 4);
-                    	case 7:
-                    	    $tounit="babies";
-                        	$output=(double)($val / 7.5);
-                        	$result = number_format($output, 4);
-                    	case 8:
-                    	    $$tounit="babies";
-                        	$output=(double)($val / 7.5);
-                        	$result = number_format($output, 4);
+                    	break;
+                
                 	}
                 	
             	echo "<br><br><h3 align=center> ",$val," lbs. is equal to ",$result,"</u> $tounit  </h3>";
@@ -105,7 +111,7 @@
 </div>
 
 <footer class="site-footer">
-A Product by Android Hell
+    <p>A Product by Android Hell</p>
 </footer>
 
 </body>
