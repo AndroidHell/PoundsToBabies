@@ -7,7 +7,7 @@
     
 <div id="header">
     <h1>How Much Is That In Babies?</h1>
-    <h3>The origninal pounds to babies converter</h3>
+    <h3>The original pounds to babies converter</h3>
 </div>
 
 <div id="section" class="page-wrap">  
