@@ -1,4 +1,4 @@
-# Pounds To Babies v0.1
+# Pounds To Babies v0.2
 ## How many babies does something weigh?
 
 Quick and dirty PHP script that is handled via HTML that converts pounds to babies (average 7.5 lb). 
