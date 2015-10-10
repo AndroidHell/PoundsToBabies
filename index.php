@@ -29,8 +29,9 @@
     			</td>
     		</tr>
     	</table>
-    	<input type=submit value=Convert>
-    
+    	<div id="input">
+    	    <input type=submit value=Convert>
+        </div>
     	<?php
     	if(isset($_POST['val'])) {
     	    
